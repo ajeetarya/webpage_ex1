@@ -9,7 +9,7 @@ steps:
   image: plugins/docker
   pull: if-not-present
   settings:
-    repo: ajeetraina/webpage
+    repo: ajeetarya/webpage
     tags: latest
     dry_run: true
 - name: test image
@@ -21,6 +21,6 @@ steps:
   image: plugins/docker
   pull: if-not-present
   settings:
-    repo: ajeetraina/webpage
+    repo: ajeetarya/webpage
     tags: latest
     insecure: true
